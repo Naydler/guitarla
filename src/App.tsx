@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { db } from "./data/db";
 import Header from "./components/Header";
 import GeneralGuitar from "./components/GeneralGuitar";

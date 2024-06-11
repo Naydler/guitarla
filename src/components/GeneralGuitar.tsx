@@ -14,8 +14,8 @@ interface GeneralGuitarProps {
     addToCard: (guitar: Guitar) => void;
 }
 
-export default function GeneralGuitar({ guitar, setCard,addToCard }: GeneralGuitarProps) {
-    const { id, name, image, description, price } = guitar;
+export default function GeneralGuitar({ guitar, addToCard }: GeneralGuitarProps) {
+    const { name, image, description, price } = guitar;
 
 
     return (
